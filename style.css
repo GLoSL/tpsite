@@ -1,0 +1,74 @@
+
+/*--------Reset*/
+
+* {
+  margin: 0;
+}
+body {
+  background: #f5f5dc;
+}
+ul {
+  list-style: none;
+}
+
+a, a:target, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+/*---------------  */
+main article img {
+  float: left;
+  max-height: 100px;
+}
+
+main>* {
+  margin: 5px;
+  padding: 3px;
+}
+
+main article {
+  border: 2px solid #800000;
+  border-radius: 5px 5px 0 0;
+}
+
+main section {
+  display: inline-block;
+  width: calc(50% - 20px);
+  border: 1px solid #800000;
+  border-radius: 0 0 5px 5px;
+
+}
+
+header {
+  background: lightgrey;
+  text-align: center;
+}
+
+.navbar, .navbar ul, .navbar a {
+  height:50px;
+  background: grey;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  display: inline;
+  text-align: center;
+}
+.navbar a {
+  display: block;
+  line-height: 50px;
+  width: 100px;
+  background: #666666;
+}
+
+main {
+  margin: 30px 10px;
+  width: 75%;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: darkgrey;
+}
